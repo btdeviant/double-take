@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-docker:
-    if: github.repository == 'btdevian7/double-take'
+    if: github.repository == 'btdeviant/double-take'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
